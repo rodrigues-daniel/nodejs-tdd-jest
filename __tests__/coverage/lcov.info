@@ -1,5 +1,5 @@
 TN:
-SF:/Users/diegofernandes/www/masterclass/authtdd/src/app.js
+SF:/home/daniel/nodejs-tdd-jest/src/app.js
 FN:8,(anonymous_0)
 FN:15,(anonymous_1)
 FN:19,(anonymous_2)
@@ -24,7 +24,7 @@ BRF:2
 BRH:1
 end_of_record
 TN:
-SF:/Users/diegofernandes/www/masterclass/authtdd/src/routes.js
+SF:/home/daniel/nodejs-tdd-jest/src/routes.js
 FN:11,(anonymous_0)
 FNF:1
 FNH:1
@@ -43,7 +43,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:/Users/diegofernandes/www/masterclass/authtdd/src/server.js
+SF:/home/daniel/nodejs-tdd-jest/src/server.js
 FNF:0
 FNH:0
 DA:1,0
@@ -56,7 +56,7 @@ BRF:2
 BRH:0
 end_of_record
 TN:
-SF:/Users/diegofernandes/www/masterclass/authtdd/src/app/controllers/SessionController.js
+SF:/home/daniel/nodejs-tdd-jest/src/app/controllers/SessionController.js
 FN:4,(anonymous_0)
 FNF:1
 FNH:1
@@ -80,7 +80,7 @@ BRF:4
 BRH:3
 end_of_record
 TN:
-SF:/Users/diegofernandes/www/masterclass/authtdd/src/app/middleware/auth.js
+SF:/home/daniel/nodejs-tdd-jest/src/app/middleware/auth.js
 FN:4,(anonymous_0)
 FNF:1
 FNH:1
@@ -105,7 +105,7 @@ BRF:2
 BRH:2
 end_of_record
 TN:
-SF:/Users/diegofernandes/www/masterclass/authtdd/src/app/models/User.js
+SF:/home/daniel/nodejs-tdd-jest/src/app/models/User.js
 FN:4,(anonymous_0)
 FN:15,(anonymous_1)
 FN:24,(anonymous_2)
@@ -135,7 +135,7 @@ BRF:2
 BRH:1
 end_of_record
 TN:
-SF:/Users/diegofernandes/www/masterclass/authtdd/src/app/models/index.js
+SF:/home/daniel/nodejs-tdd-jest/src/app/models/index.js
 FN:18,(anonymous_0)
 FN:23,(anonymous_1)
 FN:28,(anonymous_2)
@@ -172,7 +172,7 @@ BRF:5
 BRH:4
 end_of_record
 TN:
-SF:/Users/diegofernandes/www/masterclass/authtdd/src/config/database.js
+SF:/home/daniel/nodejs-tdd-jest/src/config/database.js
 FNF:0
 FNH:0
 DA:1,2
@@ -181,13 +181,13 @@ LF:2
 LH:2
 BRDA:2,0,0,2
 BRDA:2,0,1,0
-BRDA:10,1,0,2
-BRDA:10,1,1,0
+BRDA:8,1,0,2
+BRDA:8,1,1,0
 BRF:4
 BRH:2
 end_of_record
 TN:
-SF:/Users/diegofernandes/www/masterclass/authtdd/src/database/migrations/20190219195005-create-users.js
+SF:/home/daniel/nodejs-tdd-jest/src/database/migrations/20190219195005-create-users.js
 FN:4,(anonymous_0)
 FN:36,(anonymous_1)
 FNF:2
