@@ -9,7 +9,7 @@ describe("Authentication", () => {
     await truncate();
   });
 
-  it("should authenticate with valid credentials", async () => {
+  it("Deve se autenticar com credenciais validas", async () => {
     const user = await factory.create("User", {
       password: "123123"
     });
@@ -24,7 +24,7 @@ describe("Authentication", () => {
     expect(response.status).toBe(200);
   });
 
-  it("should not authenticate with invalid credentials", async () => {
+  it("nao autentica com credenciais invalidas", async () => {
     const user = await factory.create("User", {
       password: "123123"
     });
@@ -39,7 +39,7 @@ describe("Authentication", () => {
     expect(response.status).toBe(401);
   });
 
-  it("should return jwt token when authenticated", async () => {
+  it("deve retornar jwt token quando autenticado", async () => {
     const user = await factory.create("User", {
       password: "123123"
     });
@@ -54,7 +54,7 @@ describe("Authentication", () => {
     expect(response.body).toHaveProperty("token");
   });
 
-  it("should be able to access private routes when authenticated", async () => {
+  it("deve acessar rotas privadas quando autenticado", async () => {
     const user = await factory.create("User", {
       password: "123123"
     });
@@ -66,13 +66,13 @@ describe("Authentication", () => {
     expect(response.status).toBe(200);
   });
 
-  it("should not be able to access private routes without jwt token", async () => {
+  it("não acessa rotas privadas sem um token jwt", async () => {
     const response = await request(app).get("/dashboard");
 
     expect(response.status).toBe(401);
   });
 
-  it("should not be able to access private routes with invalid jwt token", async () => {
+  it("não acessa rotas privadas sem um token valido", async () => {
     const response = await request(app)
       .get("/dashboard")
       .set("Authorization", `Bearer 123123`);

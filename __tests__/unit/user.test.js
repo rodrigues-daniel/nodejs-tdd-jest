@@ -8,7 +8,7 @@ describe("User", () => {
     await truncate();
   });
 
-  it("should encrypt user password", async () => {
+  it("Encripta senha", async () => {
     const user = await User.create({
       name: "Daniel",
       email: "daniel@gmail.com",
